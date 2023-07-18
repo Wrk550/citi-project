@@ -11,6 +11,8 @@
 
   <modules>
     <module>../citi-base</module>
+    <module>../citi-client</module>
+    <module>../citi-product</module>
     <module>../renren-generator</module>
   </modules>
 
