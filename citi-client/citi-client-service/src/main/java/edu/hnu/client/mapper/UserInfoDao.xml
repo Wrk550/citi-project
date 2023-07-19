@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="edu.hnu.client.mapper.UserInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="edu.hnu.client.module.po.UserInfoEntity" id="userInfoMap">
+        <result property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="email" column="email"/>
+        <result property="password" column="password"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="auth" column="auth"/>
+    </resultMap>
+
+
+</mapper>

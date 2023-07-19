@@ -16,6 +16,39 @@ public class PageResult<T> implements Serializable{
   private long counts;
   //当前页码
   private long page;
+
+  public void setItems(List<T> items) {
+    this.items = items;
+  }
+
+  public void setCounts(long counts) {
+    this.counts = counts;
+  }
+
+  public void setPage(long page) {
+    this.page = page;
+  }
+
+  public void setPageSize(long pageSize) {
+    this.pageSize = pageSize;
+  }
+
+  public List<T> getItems() {
+    return items;
+  }
+
+  public long getCounts() {
+    return counts;
+  }
+
+  public long getPage() {
+    return page;
+  }
+
+  public long getPageSize() {
+    return pageSize;
+  }
+
   //每页记录数
   private long pageSize;
 
