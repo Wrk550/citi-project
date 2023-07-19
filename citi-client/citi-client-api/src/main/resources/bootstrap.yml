@@ -1,0 +1,19 @@
+server:
+  servlet:
+    context-path: /client
+  port: 8000
+
+spring:
+  application:
+    name: client-api
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://aitmaker.cn:3306/citi_client?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  config: classpath:log4j2-dev.xml
