@@ -20,14 +20,14 @@ public class CitiClientController {
   @Autowired
   CitiClientService citiClientService;
 
-  @GetMapping("/client/test")
+  @GetMapping("/info/test")
   public String test() {
     return "test";
 
   }
 
   @ApiOperation("用户信息查询接口")
-  @PostMapping("/client/list")
+  @PostMapping("/info/list")
   public PageResult<UserInfoEntity> list(Integer auth, PageParams pageParams) {
     return citiClientService.list(auth, pageParams);
   }

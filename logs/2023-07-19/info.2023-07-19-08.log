@@ -1,0 +1,534 @@
+2023-07-19 08:44:29,360 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-19 08:44:29,360 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-19 08:44:29,993 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-19 08:44:29,993 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-19 08:44:29,993 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-19 08:44:29,993 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-19 08:44:30,008 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-19 08:44:30,008 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-19 08:44:30,024 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-19 08:44:30,024 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-19 08:44:30,622 WARN [main][EndpointId.java:155] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2023-07-19 08:44:30,622 WARN [main][EndpointId.java:155] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2023-07-19 08:44:30,702 INFO [main][GenericScope.java:295] - BeanFactory id=b6fecc10-26a4-3e88-bc60-c182dee79a0e
+2023-07-19 08:44:30,702 INFO [main][GenericScope.java:295] - BeanFactory id=b6fecc10-26a4-3e88-bc60-c182dee79a0e
+2023-07-19 08:44:30,953 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-19 08:44:30,953 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-19 08:44:30,953 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:44:30,953 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:44:30,953 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-19 08:44:30,953 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-19 08:44:30,953 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-19 08:44:30,953 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-19 08:44:31,056 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-19 08:44:31,056 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-19 08:44:31,056 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1032 ms
+2023-07-19 08:44:31,056 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1032 ms
+2023-07-19 08:44:31,192 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:44:31,192 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:44:31,192 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:44:31,192 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:44:31,192 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:44:31,192 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:44:31,192 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:44:31,192 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:44:31,317 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:44:31,317 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:44:31,616 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:44:31,616 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:44:31,616 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-19 08:44:31,616 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-19 08:44:31,616 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-19 08:44:31,616 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-19 08:44:31,616 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-19 08:44:31,616 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-19 08:44:31,841 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 6395cb40-975c-4277-b47f-3cd482b77168
+
+2023-07-19 08:44:31,841 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 6395cb40-975c-4277-b47f-3cd482b77168
+
+2023-07-19 08:44:31,901 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5efeb117, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c8fe7a4, org.springframework.security.web.header.HeaderWriterFilter@456f7d9e, org.springframework.security.web.csrf.CsrfFilter@42ea7565, org.springframework.security.web.authentication.logout.LogoutFilter@776015fc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@40c06358, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c8f6c66, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@160b4809, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a1f2a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ad99cf3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b3ab4f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@149b4d20, org.springframework.security.web.session.SessionManagementFilter@8f40022, org.springframework.security.web.access.ExceptionTranslationFilter@3249e278, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7573b9ee]
+2023-07-19 08:44:31,901 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5efeb117, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c8fe7a4, org.springframework.security.web.header.HeaderWriterFilter@456f7d9e, org.springframework.security.web.csrf.CsrfFilter@42ea7565, org.springframework.security.web.authentication.logout.LogoutFilter@776015fc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@40c06358, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c8f6c66, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@160b4809, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a1f2a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ad99cf3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b3ab4f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@149b4d20, org.springframework.security.web.session.SessionManagementFilter@8f40022, org.springframework.security.web.access.ExceptionTranslationFilter@3249e278, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7573b9ee]
+2023-07-19 08:44:31,980 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-19 08:44:31,980 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-19 08:44:32,199 WARN [main][SpringCloudSecurityAutoConfiguration.java:38] - All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2023-07-19 08:44:32,199 WARN [main][SpringCloudSecurityAutoConfiguration.java:38] - All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2023-07-19 08:44:32,199 INFO [main][EndpointLinksResolver.java:58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-07-19 08:44:32,199 INFO [main][EndpointLinksResolver.java:58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-07-19 08:44:32,309 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:44:32,309 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:44:32,325 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-19 08:44:32,325 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-19 08:44:32,341 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='DEFAULT_GROUP@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-19 08:44:32,341 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='DEFAULT_GROUP@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-19 08:44:32,341 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-19 08:44:32,341 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-19 08:44:32,341 INFO [main][NacosServiceRegistry.java:75] - nacos registry, DEFAULT_GROUP client-api 172.20.10.2:8000 register finished
+2023-07-19 08:44:32,341 INFO [main][NacosServiceRegistry.java:75] - nacos registry, DEFAULT_GROUP client-api 172.20.10.2:8000 register finished
+2023-07-19 08:44:32,545 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 3.945 seconds (JVM running for 4.944)
+2023-07-19 08:44:32,545 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 3.945 seconds (JVM running for 4.944)
+2023-07-19 08:44:32,560 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-19 08:44:32,560 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-19 08:44:32,560 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:44:32,560 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:44:32,560 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-19 08:44:32,560 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-19 08:44:32,560 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:44:32,560 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:44:33,031 INFO [RMI TCP Connection(2)-192.168.10.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 08:44:33,031 INFO [RMI TCP Connection(2)-192.168.10.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 08:44:33,046 INFO [RMI TCP Connection(2)-192.168.10.1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-19 08:44:33,046 INFO [RMI TCP Connection(2)-192.168.10.1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-19 08:44:33,046 INFO [RMI TCP Connection(2)-192.168.10.1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2023-07-19 08:44:33,046 INFO [RMI TCP Connection(2)-192.168.10.1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2023-07-19 08:44:33,330 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:44:33,330 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:44:33,330 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:44:33,330 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:46:27,496 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-19 08:46:27,496 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-19 08:46:27,496 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-19 08:46:27,496 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-19 08:46:27,496 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-19 08:46:27,496 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-19 08:46:27,511 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-19 08:46:27,511 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: DEFAULT_GROUP@@client-api:172.20.10.2:8000 from beat map.
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: DEFAULT_GROUP@@client-api:172.20.10.2:8000 from beat map.
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-19 08:46:27,651 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-19 08:46:27,665 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-19 08:46:27,665 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-19 08:46:27,838 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:46:27,838 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:46:27,838 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: DEFAULT_GROUP@@client-api@@DEFAULT -> []
+2023-07-19 08:46:27,838 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: DEFAULT_GROUP@@client-api@@DEFAULT -> []
+2023-07-19 08:46:30,713 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-19 08:46:30,713 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-19 08:46:30,713 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-19 08:46:30,713 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-19 08:46:33,742 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-19 08:46:33,742 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-19 08:46:36,779 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-19 08:46:36,779 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-19 08:46:36,779 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-19 08:46:36,779 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-19 08:46:36,779 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-19 08:46:36,779 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:46:36,779 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:46:42,088 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-19 08:46:42,088 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-19 08:46:42,719 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-19 08:46:42,719 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-19 08:46:42,719 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-19 08:46:42,719 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-19 08:46:42,719 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-19 08:46:42,719 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-19 08:46:42,735 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-19 08:46:42,735 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-19 08:46:43,353 WARN [main][EndpointId.java:155] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2023-07-19 08:46:43,353 WARN [main][EndpointId.java:155] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2023-07-19 08:46:43,431 INFO [main][GenericScope.java:295] - BeanFactory id=b6fecc10-26a4-3e88-bc60-c182dee79a0e
+2023-07-19 08:46:43,431 INFO [main][GenericScope.java:295] - BeanFactory id=b6fecc10-26a4-3e88-bc60-c182dee79a0e
+2023-07-19 08:46:43,700 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-19 08:46:43,700 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-19 08:46:43,700 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:46:43,700 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:46:43,700 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-19 08:46:43,700 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-19 08:46:43,700 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-19 08:46:43,700 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-19 08:46:43,795 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-19 08:46:43,795 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-19 08:46:43,795 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1044 ms
+2023-07-19 08:46:43,795 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1044 ms
+2023-07-19 08:46:43,922 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:46:43,922 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:46:43,922 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:46:43,922 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:46:43,922 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:46:43,922 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:46:43,922 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:46:43,922 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:46:44,049 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:46:44,049 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:46:44,348 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:46:44,348 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:46:44,348 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-19 08:46:44,348 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-19 08:46:44,348 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-19 08:46:44,348 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-19 08:46:44,348 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-19 08:46:44,348 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-19 08:46:44,568 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 7683bb68-401d-46c6-a03c-13389da19eee
+
+2023-07-19 08:46:44,568 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 7683bb68-401d-46c6-a03c-13389da19eee
+
+2023-07-19 08:46:44,615 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@697d6ded, org.springframework.security.web.context.SecurityContextPersistenceFilter@8f40022, org.springframework.security.web.header.HeaderWriterFilter@3249e278, org.springframework.security.web.csrf.CsrfFilter@2c26ba07, org.springframework.security.web.authentication.logout.LogoutFilter@29079032, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@bb25753, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b3ab4f9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5d05f453, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@dd3f8aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c8fe7a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36bed37a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5efeb117, org.springframework.security.web.session.SessionManagementFilter@456f7d9e, org.springframework.security.web.access.ExceptionTranslationFilter@c8f97a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ba90d8a]
+2023-07-19 08:46:44,615 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@697d6ded, org.springframework.security.web.context.SecurityContextPersistenceFilter@8f40022, org.springframework.security.web.header.HeaderWriterFilter@3249e278, org.springframework.security.web.csrf.CsrfFilter@2c26ba07, org.springframework.security.web.authentication.logout.LogoutFilter@29079032, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@bb25753, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b3ab4f9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5d05f453, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@dd3f8aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c8fe7a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36bed37a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5efeb117, org.springframework.security.web.session.SessionManagementFilter@456f7d9e, org.springframework.security.web.access.ExceptionTranslationFilter@c8f97a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ba90d8a]
+2023-07-19 08:46:44,694 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-19 08:46:44,694 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-19 08:46:44,930 WARN [main][SpringCloudSecurityAutoConfiguration.java:38] - All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2023-07-19 08:46:44,930 WARN [main][SpringCloudSecurityAutoConfiguration.java:38] - All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2023-07-19 08:46:44,930 INFO [main][EndpointLinksResolver.java:58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-07-19 08:46:44,930 INFO [main][EndpointLinksResolver.java:58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-07-19 08:46:45,040 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:46:45,040 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:46:45,071 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-19 08:46:45,071 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-19 08:46:45,077 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='DEFAULT_GROUP@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-19 08:46:45,077 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='DEFAULT_GROUP@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-19 08:46:45,077 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-19 08:46:45,077 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-19 08:46:45,077 INFO [main][NacosServiceRegistry.java:75] - nacos registry, DEFAULT_GROUP client-api 172.20.10.2:8000 register finished
+2023-07-19 08:46:45,077 INFO [main][NacosServiceRegistry.java:75] - nacos registry, DEFAULT_GROUP client-api 172.20.10.2:8000 register finished
+2023-07-19 08:46:45,277 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 3.839 seconds (JVM running for 4.776)
+2023-07-19 08:46:45,277 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 3.839 seconds (JVM running for 4.776)
+2023-07-19 08:46:45,292 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-19 08:46:45,292 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-19 08:46:45,292 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:46:45,292 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:46:45,292 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-19 08:46:45,292 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-19 08:46:45,292 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:46:45,292 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:46:45,451 INFO [RMI TCP Connection(1)-192.168.10.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 08:46:45,451 INFO [RMI TCP Connection(1)-192.168.10.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 08:46:45,451 INFO [RMI TCP Connection(1)-192.168.10.1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-19 08:46:45,451 INFO [RMI TCP Connection(1)-192.168.10.1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-19 08:46:45,457 INFO [RMI TCP Connection(1)-192.168.10.1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2023-07-19 08:46:45,457 INFO [RMI TCP Connection(1)-192.168.10.1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2023-07-19 08:46:46,062 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:46:46,062 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:46:46,062 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:46:46,062 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:51:46,444 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-19 08:51:46,444 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-19 08:51:46,444 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-19 08:51:46,444 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-19 08:51:46,444 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-19 08:51:46,444 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-19 08:51:46,444 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-19 08:51:46,444 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: DEFAULT_GROUP@@client-api:172.20.10.2:8000 from beat map.
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: DEFAULT_GROUP@@client-api:172.20.10.2:8000 from beat map.
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-19 08:51:46,575 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-19 08:51:47,157 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:51:47,157 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:51:47,157 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: DEFAULT_GROUP@@client-api@@DEFAULT -> []
+2023-07-19 08:51:47,157 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: DEFAULT_GROUP@@client-api@@DEFAULT -> []
+2023-07-19 08:51:49,626 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-19 08:51:49,626 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-19 08:51:49,626 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-19 08:51:49,626 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-19 08:51:52,658 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-19 08:51:52,658 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-19 08:51:55,692 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-19 08:51:55,692 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-19 08:51:55,692 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-19 08:51:55,692 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-19 08:51:55,692 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-19 08:51:55,692 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:51:55,692 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:52:24,836 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-19 08:52:24,836 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-19 08:52:25,463 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-19 08:52:25,463 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-19 08:52:25,463 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-19 08:52:25,463 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-19 08:52:25,463 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-19 08:52:25,463 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-19 08:52:25,494 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-19 08:52:25,494 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-19 08:52:26,076 WARN [main][EndpointId.java:155] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2023-07-19 08:52:26,076 WARN [main][EndpointId.java:155] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2023-07-19 08:52:26,155 INFO [main][GenericScope.java:295] - BeanFactory id=b6fecc10-26a4-3e88-bc60-c182dee79a0e
+2023-07-19 08:52:26,155 INFO [main][GenericScope.java:295] - BeanFactory id=b6fecc10-26a4-3e88-bc60-c182dee79a0e
+2023-07-19 08:52:26,390 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-19 08:52:26,390 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-19 08:52:26,390 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:52:26,390 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:52:26,390 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-19 08:52:26,390 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-19 08:52:26,390 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-19 08:52:26,390 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-19 08:52:26,484 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-19 08:52:26,484 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 979 ms
+2023-07-19 08:52:26,484 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-19 08:52:26,484 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 979 ms
+2023-07-19 08:52:26,610 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:52:26,610 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:52:26,610 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:52:26,610 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:52:26,610 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:52:26,610 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:52:26,610 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:52:26,610 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:52:26,736 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:52:26,736 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:52:27,034 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:52:27,034 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:52:27,050 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-19 08:52:27,050 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-19 08:52:27,050 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-19 08:52:27,050 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-19 08:52:27,050 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-19 08:52:27,050 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-19 08:52:27,270 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 5bf5c342-5c3a-4de2-bd26-4ac5eda87a2c
+
+2023-07-19 08:52:27,270 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 5bf5c342-5c3a-4de2-bd26-4ac5eda87a2c
+
+2023-07-19 08:52:27,349 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d05f453, org.springframework.security.web.context.SecurityContextPersistenceFilter@5232e3f1, org.springframework.security.web.header.HeaderWriterFilter@35adf623, org.springframework.security.web.csrf.CsrfFilter@6f25bf88, org.springframework.security.web.authentication.logout.LogoutFilter@7e7743ec, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ee21292, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5c6a5192, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5efeb117, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3d615b2e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2047981, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a9a878, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@160b4809, org.springframework.security.web.session.SessionManagementFilter@75d366c2, org.springframework.security.web.access.ExceptionTranslationFilter@2b736fee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@309dcdf3]
+2023-07-19 08:52:27,349 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d05f453, org.springframework.security.web.context.SecurityContextPersistenceFilter@5232e3f1, org.springframework.security.web.header.HeaderWriterFilter@35adf623, org.springframework.security.web.csrf.CsrfFilter@6f25bf88, org.springframework.security.web.authentication.logout.LogoutFilter@7e7743ec, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ee21292, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5c6a5192, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5efeb117, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3d615b2e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2047981, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a9a878, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@160b4809, org.springframework.security.web.session.SessionManagementFilter@75d366c2, org.springframework.security.web.access.ExceptionTranslationFilter@2b736fee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@309dcdf3]
+2023-07-19 08:52:27,445 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-19 08:52:27,445 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-19 08:52:27,664 WARN [main][SpringCloudSecurityAutoConfiguration.java:38] - All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2023-07-19 08:52:27,664 WARN [main][SpringCloudSecurityAutoConfiguration.java:38] - All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2023-07-19 08:52:27,664 INFO [main][EndpointLinksResolver.java:58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-07-19 08:52:27,664 INFO [main][EndpointLinksResolver.java:58] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-07-19 08:52:27,775 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:52:27,775 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:52:27,790 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-19 08:52:27,790 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-19 08:52:27,809 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='DEFAULT_GROUP@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-19 08:52:27,809 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='DEFAULT_GROUP@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-19 08:52:27,809 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-19 08:52:27,809 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-19 08:52:27,809 INFO [main][NacosServiceRegistry.java:75] - nacos registry, DEFAULT_GROUP client-api 172.20.10.2:8000 register finished
+2023-07-19 08:52:27,809 INFO [main][NacosServiceRegistry.java:75] - nacos registry, DEFAULT_GROUP client-api 172.20.10.2:8000 register finished
+2023-07-19 08:52:28,011 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 3.806 seconds (JVM running for 4.711)
+2023-07-19 08:52:28,011 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 3.806 seconds (JVM running for 4.711)
+2023-07-19 08:52:28,027 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-19 08:52:28,027 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-19 08:52:28,027 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:52:28,027 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:52:28,027 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-19 08:52:28,027 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-19 08:52:28,027 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:52:28,027 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:52:28,672 INFO [RMI TCP Connection(3)-192.168.10.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 08:52:28,672 INFO [RMI TCP Connection(3)-192.168.10.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 08:52:28,672 INFO [RMI TCP Connection(3)-192.168.10.1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-19 08:52:28,672 INFO [RMI TCP Connection(3)-192.168.10.1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-19 08:52:28,672 INFO [RMI TCP Connection(3)-192.168.10.1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2023-07-19 08:52:28,672 INFO [RMI TCP Connection(3)-192.168.10.1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2023-07-19 08:52:28,798 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:52:28,798 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:52:28,798 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:52:28,798 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:56:46,498 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-19 08:56:46,498 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-19 08:56:46,498 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-19 08:56:46,498 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-19 08:56:46,498 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-19 08:56:46,498 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-19 08:56:46,498 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-19 08:56:46,498 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: DEFAULT_GROUP@@client-api:172.20.10.2:8000 from beat map.
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: DEFAULT_GROUP@@client-api:172.20.10.2:8000 from beat map.
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-19 08:56:46,646 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-19 08:56:47,670 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:56:47,670 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-19 08:56:47,670 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: DEFAULT_GROUP@@client-api@@DEFAULT -> []
+2023-07-19 08:56:47,670 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: DEFAULT_GROUP@@client-api@@DEFAULT -> []
+2023-07-19 08:56:48,413 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-19 08:56:48,413 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-19 08:56:48,413 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-19 08:56:48,413 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-19 08:56:49,688 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-19 08:56:49,688 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-19 08:56:52,713 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-19 08:56:52,713 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-19 08:56:52,713 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-19 08:56:52,713 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-19 08:56:52,713 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-19 08:56:52,713 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:56:52,713 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:56:58,841 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-19 08:56:58,841 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-19 08:56:59,439 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-19 08:56:59,439 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-19 08:56:59,454 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-19 08:56:59,454 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-19 08:56:59,454 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-19 08:56:59,454 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-19 08:56:59,470 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-19 08:56:59,470 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-19 08:56:59,913 INFO [main][GenericScope.java:295] - BeanFactory id=2d25ad82-fbdb-32e8-a99d-4182a9011d91
+2023-07-19 08:56:59,913 INFO [main][GenericScope.java:295] - BeanFactory id=2d25ad82-fbdb-32e8-a99d-4182a9011d91
+2023-07-19 08:57:00,090 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-19 08:57:00,090 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-19 08:57:00,100 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:57:00,100 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:57:00,100 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-19 08:57:00,100 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-19 08:57:00,100 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-19 08:57:00,100 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-19 08:57:00,182 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-19 08:57:00,182 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-19 08:57:00,182 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 712 ms
+2023-07-19 08:57:00,182 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 712 ms
+2023-07-19 08:57:00,222 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:57:00,222 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:57:00,222 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:57:00,222 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:57:00,229 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:57:00,229 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-19 08:57:00,229 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:57:00,229 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-19 08:57:00,389 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:57:00,389 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-19 08:57:00,678 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:57:00,678 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:57:00,772 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-19 08:57:00,772 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-19 08:57:01,058 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-19 08:57:01,058 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-19 08:57:01,060 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-19 08:57:01,060 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-19 08:57:01,060 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-19 08:57:01,060 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-19 08:57:01,129 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:57:01,129 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-19 08:57:01,149 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-19 08:57:01,149 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-19 08:57:01,156 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='DEFAULT_GROUP@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-19 08:57:01,156 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='DEFAULT_GROUP@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-19 08:57:01,159 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-19 08:57:01,159 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-19 08:57:01,162 INFO [main][NacosServiceRegistry.java:75] - nacos registry, DEFAULT_GROUP client-api 172.20.10.2:8000 register finished
+2023-07-19 08:57:01,162 INFO [main][NacosServiceRegistry.java:75] - nacos registry, DEFAULT_GROUP client-api 172.20.10.2:8000 register finished
+2023-07-19 08:57:01,364 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 3.152 seconds (JVM running for 4.021)
+2023-07-19 08:57:01,364 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 3.152 seconds (JVM running for 4.021)
+2023-07-19 08:57:01,364 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-19 08:57:01,364 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-19 08:57:01,364 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:57:01,364 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:57:01,364 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-19 08:57:01,364 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-19 08:57:01,364 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:57:01,364 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-19 08:57:02,155 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:57:02,155 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:57:02,159 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:57:02,159 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:57:11,002 INFO [http-nio-8000-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 08:57:11,002 INFO [http-nio-8000-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-19 08:57:11,002 INFO [http-nio-8000-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-19 08:57:11,002 INFO [http-nio-8000-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-19 08:57:11,007 INFO [http-nio-8000-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2023-07-19 08:57:11,007 INFO [http-nio-8000-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2023-07-19 08:57:22,627 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-19 08:57:22,627 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-19 08:57:22,627 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-19 08:57:22,627 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-19 08:57:22,627 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-19 08:57:22,627 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-19 08:57:22,627 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-19 08:57:22,627 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-19 08:57:22,780 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:57:22,780 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-19 08:57:22,780 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-19 08:57:22,780 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-19 08:57:22,780 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: DEFAULT_GROUP@@client-api:172.20.10.2:8000 from beat map.
+2023-07-19 08:57:22,780 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: DEFAULT_GROUP@@client-api:172.20.10.2:8000 from beat map.
+2023-07-19 08:57:22,791 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-19 08:57:22,791 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-19 08:57:22,791 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-19 08:57:22,791 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-19 08:57:22,791 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-19 08:57:22,791 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-19 08:57:23,240 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:57:23,240 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: DEFAULT_GROUP@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#DEFAULT_GROUP@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-19 08:57:23,240 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: DEFAULT_GROUP@@client-api@@DEFAULT -> []
+2023-07-19 08:57:23,240 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: DEFAULT_GROUP@@client-api@@DEFAULT -> []
+2023-07-19 08:57:25,817 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-19 08:57:25,817 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-19 08:57:25,817 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-19 08:57:25,817 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
