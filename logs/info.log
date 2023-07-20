@@ -820,3 +820,305 @@ spring:
 2023-07-20 08:31:33,183 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
 2023-07-20 08:31:33,183 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
 2023-07-20 08:31:33,183 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-20 08:44:49,162 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-20 08:44:49,162 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-20 08:44:49,933 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2023-07-20 08:44:49,933 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2023-07-20 08:44:49,933 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[gateway.properties] & group[DEFAULT_GROUP]
+2023-07-20 08:44:49,933 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[gateway.properties] & group[DEFAULT_GROUP]
+2023-07-20 08:44:49,933 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2023-07-20 08:44:49,933 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2023-07-20 08:44:49,965 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-20 08:44:49,965 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-20 08:44:50,454 INFO [main][GenericScope.java:295] - BeanFactory id=28b90e0a-c783-3a16-b83d-707d3297319f
+2023-07-20 08:44:50,454 INFO [main][GenericScope.java:295] - BeanFactory id=28b90e0a-c783-3a16-b83d-707d3297319f
+2023-07-20 08:44:50,486 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-20 08:44:50,486 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-20 08:44:50,488 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-20 08:44:50,488 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-20 08:44:50,488 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-20 08:44:50,488 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-20 08:44:50,580 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-20 08:44:50,580 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-20 08:44:50,580 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-20 08:44:50,580 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-20 08:44:50,588 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-20 08:44:50,588 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-20 08:44:50,588 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-20 08:44:50,588 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [After]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [After]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Before]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Before]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Between]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Between]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Cookie]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Cookie]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Header]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Header]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Host]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Host]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Method]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Method]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Path]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Path]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Query]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Query]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [ReadBody]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [ReadBody]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Weight]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [Weight]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-20 08:44:51,810 INFO [main][RouteDefinitionRouteLocator.java:139] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-20 08:44:51,936 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-20 08:44:51,936 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-20 08:44:52,643 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-20 08:44:52,643 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-20 08:44:52,643 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-20 08:44:52,643 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-20 08:44:52,643 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-20 08:44:52,643 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-20 08:44:53,020 INFO [main][NettyWebServer.java:109] - Netty started on port(s): 7000
+2023-07-20 08:44:53,020 INFO [main][NettyWebServer.java:109] - Netty started on port(s): 7000
+2023-07-20 08:44:53,593 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=7000, ip='172.20.10.2', weight=1.0, serviceName='citi-project@@gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-20 08:44:53,593 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=7000, ip='172.20.10.2', weight=1.0, serviceName='citi-project@@gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-20 08:44:53,593 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] 8d70bda3-6f9c-4800-84b4-ba36e729fb31 registering service citi-project@@gateway with instance: Instance{instanceId='null', ip='172.20.10.2', port=7000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-20 08:44:53,593 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] 8d70bda3-6f9c-4800-84b4-ba36e729fb31 registering service citi-project@@gateway with instance: Instance{instanceId='null', ip='172.20.10.2', port=7000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-20 08:44:53,602 INFO [main][NacosServiceRegistry.java:75] - nacos registry, citi-project gateway 172.20.10.2:7000 register finished
+2023-07-20 08:44:53,602 INFO [main][NacosServiceRegistry.java:75] - nacos registry, citi-project gateway 172.20.10.2:7000 register finished
+2023-07-20 08:44:53,618 INFO [main][StartupInfoLogger.java:61] - Started CitiGatewayApplication in 5.385 seconds (JVM running for 6.548)
+2023-07-20 08:44:53,618 INFO [main][StartupInfoLogger.java:61] - Started CitiGatewayApplication in 5.385 seconds (JVM running for 6.548)
+2023-07-20 08:44:53,618 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] gateway.properties+DEFAULT_GROUP
+2023-07-20 08:44:53,618 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] gateway.properties+DEFAULT_GROUP
+2023-07-20 08:44:53,618 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=gateway.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:44:53,618 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=gateway.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:44:53,618 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] gateway+DEFAULT_GROUP
+2023-07-20 08:44:53,618 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] gateway+DEFAULT_GROUP
+2023-07-20 08:44:53,618 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=gateway, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:44:53,618 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=gateway, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:44:53,749 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: citi-project@@gateway@@DEFAULT -> [{"instanceId":"172.20.10.2#7000#DEFAULT#citi-project@@gateway","ip":"172.20.10.2","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:44:53,749 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: citi-project@@gateway@@DEFAULT -> [{"instanceId":"172.20.10.2#7000#DEFAULT#citi-project@@gateway","ip":"172.20.10.2","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:44:53,755 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: citi-project@@gateway@@DEFAULT -> [{"instanceId":"172.20.10.2#7000#DEFAULT#citi-project@@gateway","ip":"172.20.10.2","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:44:53,755 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: citi-project@@gateway@@DEFAULT -> [{"instanceId":"172.20.10.2#7000#DEFAULT#citi-project@@gateway","ip":"172.20.10.2","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:01,307 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-20 08:45:01,307 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-20 08:45:02,190 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-20 08:45:02,190 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api] & group[DEFAULT_GROUP]
+2023-07-20 08:45:02,190 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-20 08:45:02,190 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api.properties] & group[DEFAULT_GROUP]
+2023-07-20 08:45:02,190 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api-dev.properties] & group[DEFAULT_GROUP]
+2023-07-20 08:45:02,190 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[client-api-dev.properties] & group[DEFAULT_GROUP]
+2023-07-20 08:45:02,190 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-20 08:45:02,190 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-client-api-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-client-api,DEFAULT_GROUP'}]
+2023-07-20 08:45:02,222 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-07-20 08:45:02,222 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-07-20 08:45:03,059 INFO [main][GenericScope.java:295] - BeanFactory id=37474547-2e42-30c9-8a46-7110d02db46f
+2023-07-20 08:45:03,059 INFO [main][GenericScope.java:295] - BeanFactory id=37474547-2e42-30c9-8a46-7110d02db46f
+2023-07-20 08:45:03,391 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-20 08:45:03,391 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8000 (http)
+2023-07-20 08:45:03,391 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-20 08:45:03,391 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2023-07-20 08:45:03,391 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-20 08:45:03,391 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-20 08:45:03,391 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-20 08:45:03,391 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-20 08:45:03,517 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-20 08:45:03,517 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1279 ms
+2023-07-20 08:45:03,517 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-20 08:45:03,517 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1279 ms
+2023-07-20 08:45:04,555 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-20 08:45:04,555 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-20 08:45:04,593 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-20 08:45:04,593 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-20 08:45:04,593 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-20 08:45:04,593 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-20 08:45:04,593 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-20 08:45:04,593 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-07-20 08:45:04,593 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-20 08:45:04,593 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-07-20 08:45:04,665 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-20 08:45:04,665 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-20 08:45:05,089 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-20 08:45:05,089 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-20 08:45:05,199 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-20 08:45:05,199 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-07-20 08:45:05,624 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-20 08:45:05,624 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-07-20 08:45:05,624 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-20 08:45:05,624 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-07-20 08:45:05,624 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-20 08:45:05,624 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-07-20 08:45:05,719 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-20 08:45:05,719 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8000"]
+2023-07-20 08:45:05,751 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-20 08:45:05,751 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8000 (http) with context path '/client'
+2023-07-20 08:45:05,751 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='citi-project@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-20 08:45:05,751 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8000, ip='172.20.10.2', weight=1.0, serviceName='citi-project@@client-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-07-20 08:45:05,751 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] 8d70bda3-6f9c-4800-84b4-ba36e729fb31 registering service citi-project@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-20 08:45:05,751 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] 8d70bda3-6f9c-4800-84b4-ba36e729fb31 registering service citi-project@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-07-20 08:45:05,766 INFO [main][NacosServiceRegistry.java:75] - nacos registry, citi-project client-api 172.20.10.2:8000 register finished
+2023-07-20 08:45:05,766 INFO [main][NacosServiceRegistry.java:75] - nacos registry, citi-project client-api 172.20.10.2:8000 register finished
+2023-07-20 08:45:06,050 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-07-20 08:45:06,050 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-07-20 08:45:06,066 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-07-20 08:45:06,066 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-07-20 08:45:06,097 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-07-20 08:45:06,097 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-07-20 08:45:06,224 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 5.771 seconds (JVM running for 6.925)
+2023-07-20 08:45:06,224 INFO [main][StartupInfoLogger.java:61] - Started CitiClientApiApplication in 5.771 seconds (JVM running for 6.925)
+2023-07-20 08:45:06,224 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-20 08:45:06,224 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api+DEFAULT_GROUP
+2023-07-20 08:45:06,224 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:45:06,224 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:45:06,224 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-20 08:45:06,224 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api.properties+DEFAULT_GROUP
+2023-07-20 08:45:06,224 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:45:06,224 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:45:06,224 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api-dev.properties+DEFAULT_GROUP
+2023-07-20 08:45:06,224 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848] [subscribe] client-api-dev.properties+DEFAULT_GROUP
+2023-07-20 08:45:06,224 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api-dev.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:45:06,224 INFO [main][CacheData.java:92] - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=client-api-dev.properties, group=DEFAULT_GROUP, cnt=1
+2023-07-20 08:45:06,745 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: citi-project@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-20 08:45:06,745 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: citi-project@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-20 08:45:06,745 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: citi-project@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-20 08:45:06,745 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: citi-project@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-20 08:45:11,739 INFO [reactor-http-nio-3][ChainedDynamicProperty.java:115] - Flipping property: client-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-07-20 08:45:11,739 INFO [reactor-http-nio-3][ChainedDynamicProperty.java:115] - Flipping property: client-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-07-20 08:45:11,757 INFO [reactor-http-nio-3][BaseLoadBalancer.java:197] - Client: client-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=client-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2023-07-20 08:45:11,757 INFO [reactor-http-nio-3][BaseLoadBalancer.java:197] - Client: client-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=client-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2023-07-20 08:45:11,762 INFO [reactor-http-nio-3][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2023-07-20 08:45:11,762 INFO [reactor-http-nio-3][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2023-07-20 08:45:11,768 INFO [reactor-http-nio-3][HostReactor.java:232] - new ips(1) service: citi-project@@client-api -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:11,768 INFO [reactor-http-nio-3][HostReactor.java:232] - new ips(1) service: citi-project@@client-api -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:11,770 INFO [reactor-http-nio-3][HostReactor.java:271] - current ips:(1) service: citi-project@@client-api -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:11,770 INFO [reactor-http-nio-3][HostReactor.java:271] - current ips:(1) service: citi-project@@client-api -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:11,778 INFO [reactor-http-nio-3][ChainedDynamicProperty.java:115] - Flipping property: client-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-07-20 08:45:11,778 INFO [reactor-http-nio-3][ChainedDynamicProperty.java:115] - Flipping property: client-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-07-20 08:45:11,780 INFO [reactor-http-nio-3][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client client-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=client-api,current list of Servers=[172.20.10.2:8000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.20.10.2:8000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@67477f68
+2023-07-20 08:45:11,780 INFO [reactor-http-nio-3][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client client-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=client-api,current list of Servers=[172.20.10.2:8000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.20.10.2:8000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@67477f68
+2023-07-20 08:45:11,926 INFO [http-nio-8000-exec-3][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-20 08:45:11,926 INFO [http-nio-8000-exec-3][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-20 08:45:11,926 INFO [http-nio-8000-exec-3][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-20 08:45:11,926 INFO [http-nio-8000-exec-3][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-07-20 08:45:11,935 INFO [http-nio-8000-exec-3][FrameworkServlet.java:547] - Completed initialization in 9 ms
+2023-07-20 08:45:11,935 INFO [http-nio-8000-exec-3][FrameworkServlet.java:547] - Completed initialization in 9 ms
+2023-07-20 08:45:12,772 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: client-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-07-20 08:45:12,772 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: client-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2023-07-20 08:45:20,231 WARN [Thread-22][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-20 08:45:20,231 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-20 08:45:20,231 WARN [Thread-22][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-20 08:45:20,231 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-20 08:45:20,231 WARN [Thread-22][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-20 08:45:20,231 WARN [Thread-22][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-20 08:45:20,231 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-20 08:45:20,231 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-20 08:45:20,277 INFO [Thread-46][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2023-07-20 08:45:20,277 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-20 08:45:20,277 INFO [Thread-46][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2023-07-20 08:45:20,277 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-20 08:45:20,277 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-20 08:45:20,277 WARN [Thread-21][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-07-20 08:45:20,277 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-20 08:45:20,277 WARN [Thread-21][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-07-20 08:45:20,277 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-20 08:45:20,277 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: citi-project@@gateway:172.20.10.2:7000 from beat map.
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: citi-project@@gateway:172.20.10.2:7000 from beat map.
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] 8d70bda3-6f9c-4800-84b4-ba36e729fb31 deregistering service citi-project@@gateway with instance: Instance{instanceId='null', ip='172.20.10.2', port=7000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] 8d70bda3-6f9c-4800-84b4-ba36e729fb31 deregistering service citi-project@@gateway with instance: Instance{instanceId='null', ip='172.20.10.2', port=7000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-20 08:45:20,277 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-20 08:45:20,438 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-20 08:45:20,438 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-07-20 08:45:20,438 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-20 08:45:20,438 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-07-20 08:45:20,438 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: citi-project@@client-api:172.20.10.2:8000 from beat map.
+2023-07-20 08:45:20,438 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: citi-project@@client-api:172.20.10.2:8000 from beat map.
+2023-07-20 08:45:20,438 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] 8d70bda3-6f9c-4800-84b4-ba36e729fb31 deregistering service citi-project@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-20 08:45:20,438 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] 8d70bda3-6f9c-4800-84b4-ba36e729fb31 deregistering service citi-project@@client-api with instance: Instance{instanceId='null', ip='172.20.10.2', port=8000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-07-20 08:45:20,450 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-20 08:45:20,450 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-07-20 08:45:20,450 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-20 08:45:20,450 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-07-20 08:45:20,782 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-20 08:45:20,782 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-20 08:45:20,782 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-20 08:45:20,782 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-20 08:45:20,846 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: citi-project@@gateway@@DEFAULT -> [{"instanceId":"172.20.10.2#7000#DEFAULT#citi-project@@gateway","ip":"172.20.10.2","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:20,846 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: citi-project@@gateway@@DEFAULT -> [{"instanceId":"172.20.10.2#7000#DEFAULT#citi-project@@gateway","ip":"172.20.10.2","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:20,846 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: citi-project@@gateway@@DEFAULT -> []
+2023-07-20 08:45:20,846 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: citi-project@@gateway@@DEFAULT -> []
+2023-07-20 08:45:21,795 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: citi-project@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-20 08:45:21,795 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: citi-project@@client-api@@DEFAULT -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-07-20 08:45:21,795 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: citi-project@@client-api -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:21,795 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: citi-project@@client-api -> [{"instanceId":"172.20.10.2#8000#DEFAULT#citi-project@@client-api","ip":"172.20.10.2","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"client-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-07-20 08:45:21,795 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: citi-project@@client-api@@DEFAULT -> []
+2023-07-20 08:45:21,795 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: citi-project@@client-api@@DEFAULT -> []
+2023-07-20 08:45:21,795 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: citi-project@@client-api -> []
+2023-07-20 08:45:21,795 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: citi-project@@client-api -> []
+2023-07-20 08:45:21,795 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-20 08:45:21,795 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-20 08:45:23,330 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-20 08:45:23,330 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-07-20 08:45:23,330 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-20 08:45:23,330 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-20 08:45:24,820 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-20 08:45:24,820 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-20 08:45:24,820 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-20 08:45:24,820 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-20 08:45:24,820 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-20 08:45:24,820 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-20 08:45:24,820 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-20 08:45:24,824 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-20 08:45:24,824 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-20 08:45:26,353 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-20 08:45:26,353 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-07-20 08:45:29,394 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-20 08:45:29,394 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-07-20 08:45:29,394 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-20 08:45:29,394 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-20 08:45:29,394 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-07-20 08:45:29,394 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-07-20 08:45:29,394 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
