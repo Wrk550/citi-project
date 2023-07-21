@@ -13,6 +13,7 @@
     <module>../citi-base</module>
     <module>../citi-client</module>
     <module>../citi-product</module>
+    <module>../citi-auth</module>
     <module>../renren-generator</module>
   </modules>
 
