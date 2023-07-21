@@ -14,6 +14,7 @@
     <module>../citi-client</module>
     <module>../citi-product</module>
     <module>../citi-auth</module>
+    <module>../renren-fast</module>
     <module>../renren-generator</module>
   </modules>
 
