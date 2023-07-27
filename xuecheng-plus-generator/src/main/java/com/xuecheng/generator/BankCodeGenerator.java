@@ -18,7 +18,7 @@ public class BankCodeGenerator {
 	// TODO 修改服务名以及数据表名
 	private static final String SERVICE_NAME = "bank1";
 	private static final String DATA_SOURCE_USER_NAME  = "root";
-	private static final String DATA_SOURCE_PASSWORD  = "root";
+	private static final String DATA_SOURCE_PASSWORD  = "1234";
 	private static final String[] TABLE_NAMES = new String[]{
 			"account_info",
 			"de_duplication",
@@ -62,7 +62,7 @@ public class BankCodeGenerator {
 
 		// 包配置
 		PackageConfig pc = new PackageConfig();
-		pc.setParent("com.xuecheng.rocketmq");
+		pc.setParent("edu.hnu.rocketmq");
 
 		pc.setServiceImpl("service.impl");
 		pc.setXml("mapper");
