@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: client-api
+    name: product-api
   cloud:
     nacos:
         server-addr: localhost:8848
@@ -26,8 +26,8 @@ spring:
     password: 1234
     url: jdbc:mysql://localhost:3306/citi_product?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
-#  profiles: #拼接配置文件
-#    active: dev
+  profiles: #拼接配置文件
+    active: dev
 
 #日志处理
 logging:
@@ -36,6 +36,6 @@ logging:
 swagger:
   version: 1.0.0
   title: "花旗金融交易系统"
-  description: "产品信息管理"
+  description: "股票信息管理"
   base-package: edu.hnu.product
   enabled: true

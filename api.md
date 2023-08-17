@@ -1,11 +1,19 @@
 citi-gateway：网关，集中处理、转发请求
     port：7000
 
+
 citi-product：产品服务，主要是和股票信息相关的接口
     展示股票产品具体信息：
         uri：product/list
-        请求参数：pageNo(页码),pageSize(每页记录数),price(股票价格)
-        响应参数：items(展示的数据列表),counts(总记录数),page(当前页码)
+        请求方式：GET
+        请求参数：{"pageNO":"页码","pageSize","每页记录数"}
+        示例：   {
+                    "pageNO":"1",
+                    "pageSize","10"
+                }
+        响应参数：{"items":"展示的数据列表","counts":"总记录数","page":"当前页码"}
+
+
 citi-trade：交易服务，主要是和股票买入卖出相关的接口
     买入股票：
         uri：trade/buy

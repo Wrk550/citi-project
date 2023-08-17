@@ -10,6 +10,7 @@
     <relativePath>../citi-parent</relativePath>
   </parent>
   <artifactId>citi-client</artifactId>
+  <packaging>pom</packaging>
 
   <modules>
     <module>citi-client-module</module>

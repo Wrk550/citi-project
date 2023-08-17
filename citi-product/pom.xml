@@ -9,6 +9,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../citi-parent</relativePath>
   </parent>
+  <packaging>pom</packaging>
   <artifactId>citi-product</artifactId>
+  <modules>
+    <module>citi-product-api</module>
+    <module>citi-product-module</module>
+    <module>citi-product-service</module>
+  </modules>
 
 </project>

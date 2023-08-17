@@ -16,24 +16,17 @@ import java.util.Arrays;
 public class ContentCodeGenerator {
 
 	// TODO 修改服务名以及数据表名
-	private static final String SERVICE_NAME = "content";
+	private static final String SERVICE_NAME = "product";
 
 	//数据库账号
 	private static final String DATA_SOURCE_USER_NAME  = "root";
 	//数据库密码
-	private static final String DATA_SOURCE_PASSWORD  = "mysql";
+	private static final String DATA_SOURCE_PASSWORD  = "1234";
 	//生成的表
 	private static final String[] TABLE_NAMES = new String[]{
 //			"mq_message",
 //			"mq_message_history"
-			"course_base",
-			"course_market",
-			"course_teacher",
-			"course_category",
-			"teachplan",
-			"teachplan_media",
-			"course_publish",
-			"course_publish_pre"
+			"product_info"
 
 	};
 
@@ -67,7 +60,7 @@ public class ContentCodeGenerator {
 		// 数据库配置
 		DataSourceConfig dsc = new DataSourceConfig();
 		dsc.setDbType(DbType.MYSQL);
-		dsc.setUrl("jdbc:mysql://192.168.101.65:3306/xc402_" + SERVICE_NAME
+		dsc.setUrl("jdbc:mysql://localhost:3306/citi_" + SERVICE_NAME
 				+ "?serverTimezone=UTC&useUnicode=true&useSSL=false&characterEncoding=utf8");
 //		dsc.setDriverName("com.mysql.jdbc.Driver");
 		dsc.setDriverName("com.mysql.cj.jdbc.Driver");

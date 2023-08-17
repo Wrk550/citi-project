@@ -8,6 +8,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>citi-parent</name>
   <description>citi-parent</description>
+  <packaging>pom</packaging>
 
   <modules>
     <module>../citi-base</module>
@@ -68,6 +69,11 @@
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
         <version>${org.projectlombok.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.swagger</groupId>
+        <artifactId>swagger-annotations</artifactId>
+        <version>${swagger-annotations.version}</version>
       </dependency>
       <!-- Servlet 容器管理 -->
       <dependency>

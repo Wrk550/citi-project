@@ -12,6 +12,7 @@
   </parent>
 
   <artifactId>citi-base</artifactId>
+
   <dependencies>
     <dependency>
       <groupId>org.projectlombok</groupId>

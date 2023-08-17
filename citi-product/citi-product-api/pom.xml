@@ -2,12 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>citi-product</artifactId>
     <groupId>edn.hnu</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>citi-product-api</artifactId>
+
   <dependencies>
     <!-- mySQL数据库驱动包管理 -->
     <dependency>
@@ -17,18 +19,28 @@
     </dependency>
     <dependency>
       <groupId>edn.hnu</groupId>
+      <artifactId>citi-product-module</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>edn.hnu</groupId>
       <artifactId>citi-base</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
+    <dependency>
+      <groupId>edn.hnu</groupId>
+      <artifactId>citi-product-service</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
     <!--认证相关-->
-<!--    <dependency>-->
-<!--      <groupId>org.springframework.cloud</groupId>-->
-<!--      <artifactId>spring-cloud-starter-security</artifactId>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.springframework.cloud</groupId>-->
-<!--      <artifactId>spring-cloud-starter-oauth2</artifactId>-->
-<!--    </dependency>-->
+    <!--    <dependency>-->
+    <!--      <groupId>org.springframework.cloud</groupId>-->
+    <!--      <artifactId>spring-cloud-starter-security</artifactId>-->
+    <!--    </dependency>-->
+    <!--    <dependency>-->
+    <!--      <groupId>org.springframework.cloud</groupId>-->
+    <!--      <artifactId>spring-cloud-starter-oauth2</artifactId>-->
+    <!--    </dependency>-->
 
     <dependency>
       <groupId>com.baomidou</groupId>

@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>citi-client</artifactId>
+    <artifactId>citi-product</artifactId>
     <groupId>edn.hnu</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>citi-client-module</artifactId>
+  <artifactId>citi-product-module</artifactId>
 
   <dependencies>
     <dependency>
@@ -32,4 +32,5 @@
       <artifactId>lombok</artifactId>
     </dependency>
   </dependencies>
+
 </project>
