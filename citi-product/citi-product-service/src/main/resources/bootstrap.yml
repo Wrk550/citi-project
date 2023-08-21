@@ -1,6 +1,6 @@
 spring:
   application:
-    name: client-service
+    name: product-service
   cloud:
     nacos:
         server-addr: localhost:8848
@@ -12,7 +12,7 @@ spring:
   datasource:
     username: root
     password: 1234
-    url: jdbc:mysql://localhost:3306/citi_client?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/citi_product?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
 #  profiles: #拼接配置文件
 #    active: dev

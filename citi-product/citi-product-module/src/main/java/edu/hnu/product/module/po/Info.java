@@ -57,5 +57,10 @@ public class Info implements Serializable {
      */
     private BigDecimal price;
 
+    /**
+     * RIC代码
+     */
+    private String ric;
+
 
 }

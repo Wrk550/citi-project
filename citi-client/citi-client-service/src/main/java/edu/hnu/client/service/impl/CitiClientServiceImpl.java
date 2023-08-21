@@ -5,7 +5,6 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import edu.hnu.base.module.PageParams;
 import edu.hnu.base.module.PageResult;
 import edu.hnu.client.mapper.UserInfoDao;
-import edu.hnu.client.module.dto.QueryClientParamsDto;
 import edu.hnu.client.module.po.UserInfoEntity;
 import edu.hnu.client.service.CitiClientService;
 import groovy.util.logging.Slf4j;

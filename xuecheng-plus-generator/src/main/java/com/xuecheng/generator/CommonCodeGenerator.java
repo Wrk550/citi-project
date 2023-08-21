@@ -17,7 +17,6 @@ public class CommonCodeGenerator {
 
 	// TODO 修改服务名以及数据表名
 	private static final String SERVICE_NAME = "product";
-
 	private static final String DATA_SOURCE_USER_NAME  = "root";
 	private static final String DATA_SOURCE_PASSWORD  = "1234";
 	private static final String[] TABLE_NAMES = new String[]{
@@ -64,7 +63,7 @@ public class CommonCodeGenerator {
 		// 包配置
 		PackageConfig pc = new PackageConfig();
 		pc.setModuleName(SERVICE_NAME);
-		pc.setParent("com.xuecheng");
+		pc.setParent("edu.hnu");
 
 		pc.setServiceImpl("service.impl");
 		pc.setXml("mapper");

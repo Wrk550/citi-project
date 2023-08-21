@@ -34,8 +34,8 @@ logging:
   config: classpath:log4j2-dev.xml
 
 swagger:
-  version: 1.0.0
   title: "花旗金融交易系统"
   description: "股票信息管理"
   base-package: edu.hnu.product
   enabled: true
+  version: 1.0.0

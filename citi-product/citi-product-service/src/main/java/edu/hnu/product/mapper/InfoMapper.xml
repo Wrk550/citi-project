@@ -11,11 +11,12 @@
         <result column="created_at" property="createdAt" />
         <result column="issue_sector" property="issueSector" />
         <result column="price" property="price" />
+        <result column="ric" property="ric" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, name, ticker, description, created_at, issue_sector, price
+        id, name, ticker, description, created_at, issue_sector, price,ric
     </sql>
 
 </mapper>
