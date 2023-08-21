@@ -1,5 +1,6 @@
 package edu.hnu.product.service.impl;
 
+import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -16,6 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 /**
@@ -28,6 +30,9 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements InfoService {
+
+  @Autowired
+  RedisTemplate redisTemplate;
 
   @Autowired
   InfoMapper infoMapper;
@@ -56,10 +61,42 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
   }
 
   @Override
+  public Info getByRICCache(String ric) {
+    Object json = redisTemplate.opsForValue().get("ric:" + ric);
+    if(json != null) {
+      String jsonString = json.toString();
+      Info info = JSON.parseObject(jsonString, Info.class);
+      return info;
+    } else {
+      Info info = getByRIC(ric);
+      if(info != null) {
+        redisTemplate.opsForValue().set("ric:" + ric, JSON.toJSONString(info));
+      }
+      return info;
+    }
+  }
+
+  @Override
   public Info getByTicker(String ticker) {
     LambdaQueryWrapper<Info> queryWrapper = new LambdaQueryWrapper<>();
     queryWrapper.eq(Info::getTicker, ticker);
     return infoMapper.selectOne(queryWrapper);
+  }
+
+  @Override
+  public Info getByTickerCache(String ticker) {
+    Object json = redisTemplate.opsForValue().get("ticker:" + ticker);
+    if(json != null) {
+      String jsonString = json.toString();
+      Info info = JSON.parseObject(jsonString, Info.class);
+      return info;
+    } else {
+      Info info = getByTicker(ticker);
+      if(info != null) {
+        redisTemplate.opsForValue().set("ticker:" + ticker, JSON.toJSONString(info));
+      }
+      return info;
+    }
   }
 
   @Override

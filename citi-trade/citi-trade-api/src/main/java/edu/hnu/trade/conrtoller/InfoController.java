@@ -50,7 +50,7 @@ public class InfoController {
 
   @ApiOperation("分页查询交易记录")
   @PostMapping("/trade/list")
-  public R list(PageParams pageParams, QueryTradeParamsDto queryTradeParamsDto) {
+  public R list(PageParams pageParams, @RequestBody(required=false) QueryTradeParamsDto queryTradeParamsDto) {
     PageResult<Info> infoPageResult = infoService.queryInfoList(pageParams, queryTradeParamsDto);
     return R.ok("查询成功", infoPageResult);
   }

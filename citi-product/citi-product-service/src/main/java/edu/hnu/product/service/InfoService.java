@@ -18,9 +18,48 @@ import java.math.BigDecimal;
  * @since 2023-08-17
  */
 public interface InfoService extends IService<Info> {
+
+
   public PageResult<Info> list(PageParams pageParams);
+
+  /**
+   * 根据RIC代码获取对应的股票产品
+   * @param ric RIC代码
+   * @return 股票对象
+   */
   public Info getByRIC(String ric);
+
+  /**
+   * 通过缓存获取
+   * @param ric
+   * @return
+   */
+  public Info getByRICCache(String ric);
+
+  /**
+   * 根据ticker获取对应的股票产品
+   * @param ticker ticker代码
+   * @return 股票对象
+   */
   public Info getByTicker(String ticker);
+
+  /**
+   * 通过缓存获取
+   * @param ticker
+   * @return
+   */
+  public Info getByTickerCache(String ticker);
+
+  /**
+   * 添加股票
+   * @param name 股票名称
+   * @param ticker 股票代码
+   * @param description 股票介绍
+   * @param issueSector 所属部门
+   * @param price 股票单价
+   * @param ric RIC代码
+   * @return Response对象
+   */
   public R add(String name, String ticker, String description, String issueSector, BigDecimal price, String ric);
 
   /**
@@ -30,4 +69,5 @@ public interface InfoService extends IService<Info> {
    * @return 分页查询结果
    */
   public PageResult<Info> queryInfoList(PageParams pageParams, QueryProductParamsDto queryProductParamsDto);
+
 }

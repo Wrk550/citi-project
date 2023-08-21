@@ -38,14 +38,14 @@ public class InfoController {
   @ResponseBody
   @GetMapping("/product/getByRIC")
   public Info getByRIC(@RequestParam("ric") String ric) {
-    return infoService.getByRIC(ric);
+    return infoService.getByRICCache(ric);
   }
 
   @ApiOperation("根据Ticker查找对应股票")
   @ResponseBody
   @GetMapping("/product/getByTicker")
   public Info getByTicker(@RequestParam("ticker") String ticker) {
-    return infoService.getByTicker(ticker);
+    return infoService.getByTickerCache(ticker);
   }
 
   @ApiOperation("添加股票")
