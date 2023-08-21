@@ -1,14 +1,21 @@
 package edu.hnu.trade.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import edu.hnu.base.module.PageParams;
+import edu.hnu.base.module.PageResult;
 import edu.hnu.base.module.R;
 import edu.hnu.trade.feignclient.ProductServiceClient;
 import edu.hnu.trade.mapper.InfoMapper;
+import edu.hnu.trade.model.dto.QueryTradeParamsDto;
 import edu.hnu.trade.model.po.Info;
 import edu.hnu.trade.service.InfoService;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -129,5 +136,33 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
     }
     infoMapper.insert(info);
     return R.ok("买入成功", info);
+  }
+
+  @Override
+  public PageResult<Info> queryInfoList(PageParams pageParams,
+      QueryTradeParamsDto queryTradeParamsDto) {
+    LambdaQueryWrapper<Info> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+    lambdaQueryWrapper.eq(
+        StringUtils.isNotEmpty(queryTradeParamsDto.getClientName()), Info::getClientName,
+        queryTradeParamsDto.getClientName());
+    lambdaQueryWrapper.eq(StringUtils.isNotEmpty(queryTradeParamsDto.getClientSide()), Info::getClientSide,
+        queryTradeParamsDto.getClientSide());
+    lambdaQueryWrapper.eq(StringUtils.isNotEmpty(queryTradeParamsDto.getIssueSector()),
+        Info::getIssueSector, queryTradeParamsDto.getIssueSector());
+    lambdaQueryWrapper.eq(StringUtils.isNotEmpty(queryTradeParamsDto.getTicker()),
+        Info::getTicker, queryTradeParamsDto.getTicker());
+    lambdaQueryWrapper.eq(StringUtils.isNotEmpty(queryTradeParamsDto.getRic()), Info::getRic,
+        queryTradeParamsDto.getRic());
+    lambdaQueryWrapper.eq(StringUtils.isNotEmpty(queryTradeParamsDto.getCurrency()), Info::getCurrency,
+        queryTradeParamsDto.getCurrency());
+    lambdaQueryWrapper.eq(StringUtils.isNotEmpty(queryTradeParamsDto.getHtPt()), Info::getHtPt,
+        queryTradeParamsDto.getHtPt());
+    Page<Info> page = new Page<>(pageParams.getPageNo(), pageParams.getPageSize());
+    Page<Info> pageResult = infoMapper.selectPage(page, lambdaQueryWrapper);
+    List<Info> items = pageResult.getRecords();
+    long total = pageResult.getTotal();
+    PageResult<Info> infoPageResult = new PageResult<>(items, total, pageParams.getPageNo(),
+        pageParams.getPageSize());
+    return infoPageResult;
   }
 }

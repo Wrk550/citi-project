@@ -1,6 +1,10 @@
 package edu.hnu.trade.conrtoller;
 
+import edu.hnu.base.module.PageParams;
+import edu.hnu.base.module.PageResult;
 import edu.hnu.base.module.R;
+import edu.hnu.trade.model.dto.QueryTradeParamsDto;
+import edu.hnu.trade.model.po.Info;
 import edu.hnu.trade.service.InfoService;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -42,5 +46,12 @@ public class InfoController {
       @RequestParam("size") Integer size, @RequestParam("currency") String currency,
       @RequestParam("htPt") Integer htPt) {
     return infoService.buy(clientName, ticker, ric, size, currency, htPt);
+  }
+
+  @ApiOperation("分页查询交易记录")
+  @PostMapping("/trade/list")
+  public R list(PageParams pageParams, QueryTradeParamsDto queryTradeParamsDto) {
+    PageResult<Info> infoPageResult = infoService.queryInfoList(pageParams, queryTradeParamsDto);
+    return R.ok("查询成功", infoPageResult);
   }
 }
