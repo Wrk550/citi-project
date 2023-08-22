@@ -39,9 +39,9 @@ public class Info implements Serializable {
     private LocalDate date;
 
     /**
-     * 客户姓名
+     * 客户ID
      */
-    private String clientName;
+    private String clientId;
 
     /**
      * 客户操作

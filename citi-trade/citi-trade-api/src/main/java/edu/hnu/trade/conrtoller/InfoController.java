@@ -32,20 +32,20 @@ public class InfoController {
 
   @ApiOperation("出售股票")
   @PostMapping("/trade/sell")
-  public R sell(@RequestParam("clientName") String clientName,
+  public R sell(@RequestParam("clientId") String clientId,
       @RequestParam("ticker") String ticker, @RequestParam("ric") String ric,
       @RequestParam("size") Integer size, @RequestParam("currency") String currency,
       @RequestParam("htPt") Integer htPt) {
-    return infoService.sell(clientName, ticker, ric, size, currency, htPt);
+    return infoService.sell(clientId, ticker, ric, size, currency, htPt);
   }
 
   @ApiOperation("买入股票")
   @PostMapping("/trade/buy")
-  public R buy(@RequestParam("clientName") String clientName,
+  public R buy(@RequestParam("clientId") String clientId,
       @RequestParam("ticker") String ticker, @RequestParam("ric") String ric,
       @RequestParam("size") Integer size, @RequestParam("currency") String currency,
       @RequestParam("htPt") Integer htPt) {
-    return infoService.buy(clientName, ticker, ric, size, currency, htPt);
+    return infoService.buy(clientId, ticker, ric, size, currency, htPt);
   }
 
   @ApiOperation("分页查询交易记录")

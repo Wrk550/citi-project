@@ -22,7 +22,7 @@
     </dependency>
     <dependency>
       <groupId>edn.hnu</groupId>
-      <artifactId>citi-client-module</artifactId>
+      <artifactId>citi-client-model</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>

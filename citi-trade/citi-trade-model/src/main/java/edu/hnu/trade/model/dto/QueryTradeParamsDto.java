@@ -6,8 +6,8 @@ import lombok.ToString;
 @Data
 @ToString
 public class QueryTradeParamsDto {
-  //客户名称
-  private String clientName;
+  //客户ID
+  private String clientId;
   //出售or买入
   private String clientSide;
   //股票代码

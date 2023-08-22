@@ -7,7 +7,7 @@
         <id column="id" property="id" />
         <result column="user_id" property="userId" />
         <result column="date" property="date" />
-        <result column="client_name" property="clientName" />
+        <result column="client_id" property="clientId" />
         <result column="client_side" property="clientSide" />
         <result column="ticker" property="ticker" />
         <result column="ric" property="ric" />
@@ -23,7 +23,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, user_id, date, client_name, client_side, ticker, ric, size, price, notional_usd, currency, issue_sector, salesperson, ht_pt, created_at
+        id, user_id, date, client_id, client_side, ticker, ric, size, price, notional_usd, currency, issue_sector, salesperson, ht_pt, created_at
     </sql>
 
 </mapper>

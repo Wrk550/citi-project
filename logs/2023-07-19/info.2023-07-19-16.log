@@ -1,8 +1,0 @@
-2023-07-19 17:00:49,062 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2023-07-19 17:00:49,062 WARN [Thread-22][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2023-07-19 17:00:49,062 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
-2023-07-19 17:00:49,062 WARN [Thread-22][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
-2023-07-19 17:00:49,070 WARN [Thread-22][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2023-07-19 17:00:49,070 WARN [Thread-22][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
-2023-07-19 17:00:49,071 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
-2023-07-19 17:00:49,071 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end

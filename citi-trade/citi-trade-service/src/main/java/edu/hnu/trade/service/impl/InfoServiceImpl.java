@@ -37,13 +37,13 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
   ProductServiceClient productServiceClient;
 
   @Override
-  public R sell(String clientName, String ticker, String ric, Integer size, String currency,
+  public R sell(String clientId, String ticker, String ric, Integer size, String currency,
       Integer htPt) {
     if (ric.equals("") && ticker.equals("")) {
       return R.error("请输入RIC或股票代码以确认将要进行操作的股票");
     }
     Info info = new Info();
-    info.setClientName(clientName);
+    info.setClientId(clientId);
     info.setClientSide("sell");
     info.setDate(LocalDateTime.now().toLocalDate());
     edu.hnu.product.module.po.Info productByRic = new edu.hnu.product.module.po.Info();
@@ -88,13 +88,13 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
   }
 
   @Override
-  public R buy(String clientName, String ticker, String ric, Integer size, String currency,
+  public R buy(String clientId, String ticker, String ric, Integer size, String currency,
       Integer htPt) {
     if (ric.equals("") && ticker.equals("")) {
       return R.error("请输入RIC或股票代码以确认将要进行操作的股票");
     }
     Info info = new Info();
-    info.setClientName(clientName);
+    info.setClientId(clientId);
     info.setClientSide("buy");
     info.setDate(LocalDateTime.now().toLocalDate());
     edu.hnu.product.module.po.Info productByRic = new edu.hnu.product.module.po.Info();
@@ -143,8 +143,8 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
       QueryTradeParamsDto queryTradeParamsDto) {
     LambdaQueryWrapper<Info> lambdaQueryWrapper = new LambdaQueryWrapper<>();
     lambdaQueryWrapper.eq(
-        StringUtils.isNotEmpty(queryTradeParamsDto.getClientName()), Info::getClientName,
-        queryTradeParamsDto.getClientName());
+        StringUtils.isNotEmpty(queryTradeParamsDto.getClientId()), Info::getClientId,
+        queryTradeParamsDto.getClientId());
     lambdaQueryWrapper.eq(StringUtils.isNotEmpty(queryTradeParamsDto.getClientSide()), Info::getClientSide,
         queryTradeParamsDto.getClientSide());
     lambdaQueryWrapper.eq(StringUtils.isNotEmpty(queryTradeParamsDto.getIssueSector()),

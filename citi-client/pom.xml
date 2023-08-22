@@ -13,7 +13,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>citi-client-module</module>
+    <module>citi-client-model</module>
     <module>citi-client-api</module>
     <module>citi-client-service</module>
   </modules>

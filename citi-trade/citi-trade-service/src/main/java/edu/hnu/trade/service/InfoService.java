@@ -19,11 +19,11 @@ import java.math.BigDecimal;
  */
 public interface InfoService extends IService<Info> {
 
-  public R sell(String clientName, String ticker, String ric, Integer size, String currency, Integer htPt);
+  public R sell(String clientId, String ticker, String ric, Integer size, String currency, Integer htPt);
 
   /**
    * 买入股票
-   * @param clientName 客户名称
+   * @param clientId 客户名称
    * @param ticker 股票代码
    * @param ric RIC代码
    * @param size 买入数量
@@ -31,7 +31,7 @@ public interface InfoService extends IService<Info> {
    * @param htPt 交易平台
    * @return
    */
-  public R buy(String clientName, String ticker, String ric, Integer size, String currency, Integer htPt);
+  public R buy(String clientId, String ticker, String ric, Integer size, String currency, Integer htPt);
 
   /**
    * 分页查询交易记录
