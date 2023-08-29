@@ -60,11 +60,11 @@ public class InfoController {
     int buySize = 0;
     for (Info item : infoPageResult.getItems()) {
       if (item.getClientSide().equals("sell")) {
-        sellSum.add(item.getNotionalUsd());
+        sellSum = sellSum.add(item.getNotionalUsd());
         sellSize += item.getSize();
       }
       if (item.getClientSide().equals("buy")) {
-        buySum.add(item.getNotionalUsd());
+        buySum = buySum.add(item.getNotionalUsd());
         buySize += item.getSize();
       }
     }

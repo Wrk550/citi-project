@@ -22,7 +22,7 @@ public class Ledger implements Serializable {
     /**
      * id
      */
-    private Integer id;
+    private String id;
 
     /**
      * 统计的日期
