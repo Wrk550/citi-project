@@ -6,13 +6,17 @@
     <resultMap id="BaseResultMap" type="edu.hnu.client.model.po.Own">
         <id column="id" property="id" />
         <result column="client_id" property="clientId" />
+        <result column="cilent_name" property="cilentName" />
         <result column="product_id" property="productId" />
+        <result column="product_name" property="productName" />
+        <result column="ticker" property="ticker" />
+        <result column="ric" property="ric" />
         <result column="size" property="size" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, client_id, product_id, size
+        id, client_id, cilent_name, product_id, product_name, ticker, ric, size
     </sql>
 
 </mapper>

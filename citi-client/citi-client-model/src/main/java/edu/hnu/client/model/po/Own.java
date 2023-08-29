@@ -31,9 +31,29 @@ public class Own implements Serializable {
     private Integer clientId;
 
     /**
+     * 客户名
+     */
+    private String cilentName;
+
+    /**
      * 持有的股票id
      */
     private Integer productId;
+
+    /**
+     * 股票名称
+     */
+    private String productName;
+
+    /**
+     * ticker代码
+     */
+    private String ticker;
+
+    /**
+     * ric代码
+     */
+    private String ric;
 
     /**
      * 持有数量

@@ -48,6 +48,13 @@ public class InfoController {
     return infoService.getByTickerCache(ticker);
   }
 
+  @ApiOperation("根据id查找对应股票")
+  @ResponseBody
+  @GetMapping("/product/getById")
+  public Info getById(@RequestParam("id") Integer id) {
+    return infoService.getByIdCache(id);
+  }
+
   @ApiOperation("添加股票")
   @ResponseBody
   @PostMapping("/product/add")

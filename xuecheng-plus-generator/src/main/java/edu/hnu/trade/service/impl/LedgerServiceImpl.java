@@ -1,8 +1,8 @@
-package edu.hnu.client.service.impl;
+package edu.hnu.trade.service.impl;
 
-import edu.hnu.client.model.po.Info;
-import edu.hnu.client.mapper.InfoMapper;
-import edu.hnu.client.service.InfoService;
+import edu.hnu.trade.model.po.Ledger;
+import edu.hnu.trade.mapper.LedgerMapper;
+import edu.hnu.trade.service.LedgerService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -18,6 +18,6 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 @Slf4j
 @Service
-public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements InfoService {
+public class LedgerServiceImpl extends ServiceImpl<LedgerMapper, Ledger> implements LedgerService {
 
 }

@@ -20,4 +20,6 @@ public class QueryTradeParamsDto {
   private String issueSector;
   //交易平台
   private String htPt;
+  //查询时间段
+  private Integer timePeriod;
 }

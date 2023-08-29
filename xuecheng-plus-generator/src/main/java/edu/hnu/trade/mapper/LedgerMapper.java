@@ -1,6 +1,6 @@
-package edu.hnu.client.mapper;
+package edu.hnu.trade.mapper;
 
-import edu.hnu.client.model.po.Own;
+import edu.hnu.trade.model.po.Ledger;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 
@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
  *
  * @author wrk
  */
-public interface OwnMapper extends BaseMapper<Own> {
+public interface LedgerMapper extends BaseMapper<Ledger> {
 
 }

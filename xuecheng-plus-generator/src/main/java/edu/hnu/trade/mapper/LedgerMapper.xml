@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.hnu.trade.mapper.LedgerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.hnu.trade.model.po.Ledger">
+        <id column="id" property="id" />
+        <result column="date" property="date" />
+        <result column="total_sell_notional" property="totalSellNotional" />
+        <result column="total_buy_notional" property="totalBuyNotional" />
+        <result column="net_notional" property="netNotional" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, date, total_sell_notional, total_buy_notional, net_notional
+    </sql>
+
+</mapper>

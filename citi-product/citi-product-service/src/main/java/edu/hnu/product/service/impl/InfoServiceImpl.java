@@ -84,6 +84,29 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
   }
 
   @Override
+  public Info getByIdCache(Integer id) {
+    Object json = redisTemplate.opsForValue().get("product_id:" + id);
+    if(json != null) {
+      String jsonString = json.toString();
+      Info info = JSON.parseObject(jsonString, Info.class);
+      return info;
+    } else {
+      Info info = getById(id);
+      if(info != null) {
+        redisTemplate.opsForValue().set("product_id:" + id, JSON.toJSONString(info));
+      }
+      return info;
+    }
+  }
+
+  @Override
+  public Info getById(Integer id) {
+    LambdaQueryWrapper<Info> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+    lambdaQueryWrapper.eq(Info::getId, id);
+    return infoMapper.selectOne(lambdaQueryWrapper);
+  }
+
+  @Override
   public Info getByTickerCache(String ticker) {
     Object json = redisTemplate.opsForValue().get("ticker:" + ticker);
     if(json != null) {

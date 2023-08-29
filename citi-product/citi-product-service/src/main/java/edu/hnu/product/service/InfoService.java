@@ -45,6 +45,20 @@ public interface InfoService extends IService<Info> {
 
   /**
    * 通过缓存获取
+   * @param id
+   * @return
+   */
+  public Info getByIdCache(Integer id);
+
+  /**
+   * 根据ticker获取对应的股票产品
+   * @param id 股票id
+   * @return 股票对象
+   */
+  public Info getById(Integer id);
+
+  /**
+   * 通过缓存获取
    * @param ticker
    * @return
    */

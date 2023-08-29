@@ -16,12 +16,11 @@ import java.util.Arrays;
 public class CommonCodeGenerator {
 
 	// TODO 修改服务名以及数据表名
-	private static final String SERVICE_NAME = "client";
+	private static final String SERVICE_NAME = "trade";
 	private static final String DATA_SOURCE_USER_NAME  = "root";
 	private static final String DATA_SOURCE_PASSWORD  = "1234";
 	private static final String[] TABLE_NAMES = new String[]{
-			"client_info",
-			"client_own"
+			"trade_ledger"
 	};
 
 	// TODO 默认生成entity，需要生成DTO修改此变量

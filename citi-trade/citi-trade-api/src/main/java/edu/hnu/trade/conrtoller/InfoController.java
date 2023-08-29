@@ -7,6 +7,8 @@ import edu.hnu.trade.model.dto.QueryTradeParamsDto;
 import edu.hnu.trade.model.po.Info;
 import edu.hnu.trade.service.InfoService;
 import io.swagger.annotations.ApiOperation;
+import java.math.BigDecimal;
+import java.util.HashMap;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -52,6 +54,28 @@ public class InfoController {
   @PostMapping("/trade/list")
   public R list(PageParams pageParams, @RequestBody(required=false) QueryTradeParamsDto queryTradeParamsDto) {
     PageResult<Info> infoPageResult = infoService.queryInfoList(pageParams, queryTradeParamsDto);
-    return R.ok("查询成功", infoPageResult);
+    BigDecimal sellSum = new BigDecimal("0");
+    BigDecimal buySum = new BigDecimal("0");
+    int sellSize = 0;
+    int buySize = 0;
+    for (Info item : infoPageResult.getItems()) {
+      if (item.getClientSide().equals("sell")) {
+        sellSum.add(item.getNotionalUsd());
+        sellSize += item.getSize();
+      }
+      if (item.getClientSide().equals("buy")) {
+        buySum.add(item.getNotionalUsd());
+        buySize += item.getSize();
+      }
+    }
+    HashMap<String, Object> res = new HashMap<>();
+    res.put("pageResult", infoPageResult);
+    res.put("TotalBuy", buySize);
+    res.put("TotalSell", sellSize);
+    res.put("NetQuantity", buySize - sellSize);
+    res.put("TotalSellNotional", sellSum);
+    res.put("TotalBuyNotional", buySum);
+    res.put("NetNotional", buySum.subtract(sellSum));
+    return R.ok("查询成功", res);
   }
 }
