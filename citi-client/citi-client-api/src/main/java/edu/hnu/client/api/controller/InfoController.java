@@ -1,6 +1,9 @@
 package edu.hnu.client.api.controller;
 
+import edu.hnu.base.module.PageParams;
+import edu.hnu.base.module.PageResult;
 import edu.hnu.base.module.R;
+import edu.hnu.client.model.po.Info;
 import edu.hnu.client.service.InfoService;
 import edu.hnu.client.service.OwnService;
 import io.swagger.annotations.Api;
@@ -53,5 +56,13 @@ public class InfoController {
     }
     infoService.removeByIds(Arrays.asList(ids));
     return R.ok("删除成功");
+  }
+
+  @ApiOperation("展示客户信息")
+  @ResponseBody
+  @PostMapping("client/list")
+  public R listClient(PageParams pageParams) {
+    PageResult<Info> pageResult = infoService.queryInfoList(pageParams);
+    return R.ok("查询成功", pageResult);
   }
 }

@@ -1,7 +1,10 @@
 package edu.hnu.client.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import edu.hnu.base.module.PageParams;
+import edu.hnu.base.module.PageResult;
 import edu.hnu.base.module.R;
 import edu.hnu.client.mapper.InfoMapper;
 import edu.hnu.client.model.po.Info;
@@ -43,5 +46,15 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
     info.setPhoneNumber(phoneNumber);
     infoMapper.insert(info);
     return R.ok("添加成功", info);
+  }
+
+  @Override
+  public PageResult<Info> queryInfoList(PageParams pageParams) {
+    Page<Info> page = new Page<>(pageParams.getPageNo(), pageParams.getPageSize());
+    Page<Info> pageResult = infoMapper.selectPage(page, new LambdaQueryWrapper<>());
+    List<Info> items = pageResult.getRecords();
+    long total = pageResult.getTotal();
+    PageResult<Info> infoPageResult = new PageResult<>(items, total, pageParams.getPageNo(), pageParams.getPageSize());
+    return infoPageResult;
   }
 }

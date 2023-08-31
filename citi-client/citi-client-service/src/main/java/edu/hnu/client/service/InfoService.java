@@ -1,6 +1,8 @@
 package edu.hnu.client.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import edu.hnu.base.module.PageParams;
+import edu.hnu.base.module.PageResult;
 import edu.hnu.base.module.R;
 import edu.hnu.client.model.po.Info;
 
@@ -21,5 +23,12 @@ public interface InfoService extends IService<Info> {
    * @return
    */
   public R addClient(String clientName, String phoneNumber);
+
+  /**
+   * 客户信息分页查询
+   * @param pageParams 分页查询参数
+   * @return 分页查询结果
+   */
+  public PageResult<Info> queryInfoList(PageParams pageParams);
 
 }
