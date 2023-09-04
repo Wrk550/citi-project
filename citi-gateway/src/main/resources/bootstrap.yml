@@ -7,9 +7,9 @@ spring:
     name: gateway
   cloud:
     nacos:
-      server-addr: localhost:8848
+      server-addr: 114.132.91.6:8848
       discovery: #服务注册相关配置
-        namespace: 8d70bda3-6f9c-4800-84b4-ba36e729fb31
+        namespace: 3ea8e23e-87be-46a1-8a80-f15c8abd5115
         group: citi-project
     gateway:
       routes:

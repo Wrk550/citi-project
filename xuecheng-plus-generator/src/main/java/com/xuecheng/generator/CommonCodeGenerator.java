@@ -53,7 +53,7 @@ public class CommonCodeGenerator {
 		// 数据库配置
 		DataSourceConfig dsc = new DataSourceConfig();
 		dsc.setDbType(DbType.MYSQL);
-		dsc.setUrl("jdbc:mysql://localhost:3306/" + "citi_" + SERVICE_NAME
+		dsc.setUrl("jdbc:mysql://114.132.91.6:3306/" + "citi_" + SERVICE_NAME
 				+ "?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai");
 		dsc.setDriverName("com.mysql.cj.jdbc.Driver");
 		dsc.setUsername(DATA_SOURCE_USER_NAME);

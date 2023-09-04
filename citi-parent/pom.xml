@@ -12,8 +12,10 @@
 
   <modules>
     <module>../citi-base</module>
+    <module>../citi-gateway</module>
     <module>../citi-client</module>
     <module>../citi-product</module>
+    <module>../citi-trade</module>
     <module>../xuecheng-plus-generator</module>
   </modules>
 

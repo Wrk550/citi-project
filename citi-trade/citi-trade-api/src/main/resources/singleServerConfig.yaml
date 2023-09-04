@@ -34,7 +34,7 @@ singleServerConfig:
   #在Redis节点里显示的客户端名称。
   clientName: null
   #在Redis节点
-  address: "redis://localhost:6379"
+  address: "redis://114.132.91.6:6379"
   #从节点发布和订阅连接的最小空闲连接数
   #默认值：1
   subscriptionConnectionMinimumIdleSize: 1
