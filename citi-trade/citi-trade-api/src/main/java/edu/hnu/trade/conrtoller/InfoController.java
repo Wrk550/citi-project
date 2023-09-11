@@ -34,7 +34,7 @@ public class InfoController {
 
   @ApiOperation("出售股票")
   @PostMapping("/trade/sell")
-  public R sell(@RequestParam("clientId") String clientId,
+  public R sell(@RequestParam("clientId") Integer clientId,
       @RequestParam("ticker") String ticker, @RequestParam("ric") String ric,
       @RequestParam("size") Integer size, @RequestParam("currency") String currency,
       @RequestParam("htPt") Integer htPt) {
@@ -43,7 +43,7 @@ public class InfoController {
 
   @ApiOperation("买入股票")
   @PostMapping("/trade/buy")
-  public R buy(@RequestParam("clientId") String clientId,
+  public R buy(@RequestParam("clientId") Integer clientId,
       @RequestParam("ticker") String ticker, @RequestParam("ric") String ric,
       @RequestParam("size") Integer size, @RequestParam("currency") String currency,
       @RequestParam("htPt") Integer htPt) {

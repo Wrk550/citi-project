@@ -26,7 +26,6 @@ public class MyTask implements SchedulingConfigurer {
   }
 
   private void process() {
-    System.out.println(LocalDateTime.now());
     ledgerService.updateData(LocalDateTime.now());
   }
 }

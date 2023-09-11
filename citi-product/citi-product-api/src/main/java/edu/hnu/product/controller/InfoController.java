@@ -89,4 +89,18 @@ public class InfoController {
     return R.ok("查询成功", infoPageResult);
   }
 
+  @ApiOperation("根据产品id获取库存")
+  @ResponseBody
+  @GetMapping("/product/getInventory")
+  public Integer getInventory(@RequestParam("productId") Integer productId) {
+    return infoService.getInventory(productId);
+  }
+
+  @ApiOperation("根据产品id更新库存")
+  @ResponseBody
+  @GetMapping("/product/updateInventory")
+  public void updateInventory(@RequestParam("productId") Integer productId, @RequestParam("size") Integer size) {
+    infoService.decreaseInventory(productId, size);
+  }
+
 }

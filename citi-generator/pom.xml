@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>xuecheng-plus-generator</artifactId>
+    <artifactId>citi-generator</artifactId>
 
     <dependencies>
 

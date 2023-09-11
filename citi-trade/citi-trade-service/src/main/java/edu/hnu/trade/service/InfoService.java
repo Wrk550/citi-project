@@ -21,7 +21,7 @@ import java.time.LocalDateTime;
  */
 public interface InfoService extends IService<Info> {
 
-  public R sell(String clientId, String ticker, String ric, Integer size, String currency, Integer htPt);
+  public R sell(Integer clientId, String ticker, String ric, Integer size, String currency, Integer htPt);
 
   /**
    * 买入股票
@@ -33,7 +33,7 @@ public interface InfoService extends IService<Info> {
    * @param htPt 交易平台
    * @return
    */
-  public R buy(String clientId, String ticker, String ric, Integer size, String currency, Integer htPt);
+  public R buy(Integer clientId, String ticker, String ric, Integer size, String currency, Integer htPt);
 
   /**
    * 分页查询交易记录

@@ -5,6 +5,7 @@ import edu.hnu.base.module.PageParams;
 import edu.hnu.base.module.PageResult;
 import edu.hnu.base.module.R;
 import edu.hnu.client.model.po.Info;
+import java.util.List;
 
 /**
  * <p>
@@ -30,5 +31,12 @@ public interface InfoService extends IService<Info> {
    * @return 分页查询结果
    */
   public PageResult<Info> queryInfoList(PageParams pageParams);
+
+  /**
+   * 根据id获取客户信息
+   * @param id 客户id
+   * @return 客户信息
+   */
+  public List<Info> getById(Integer id);
 
 }

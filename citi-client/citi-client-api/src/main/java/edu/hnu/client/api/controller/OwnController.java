@@ -44,8 +44,8 @@ public class OwnController {
   @ResponseBody
   @GetMapping("client/updateSize")
   public void updateSize(@RequestParam("clientId") Integer clientId,
-      @RequestParam("productId") Integer productId, @RequestParam("size") Integer size) {
-    ownService.updateByProductIdAndClientId(productId, clientId, size);
+      @RequestParam("productId") Integer productId, @RequestParam("size") Integer size, @RequestParam("operator") Integer operator) {
+    ownService.updateByProductIdAndClientId(productId, clientId, size, operator);
   }
 
   @ApiOperation("分页按条件查询客户持有股票")

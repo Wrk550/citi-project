@@ -16,9 +16,9 @@ public interface ProductServiceClient {
   @GetMapping("/product/info/product/getByTicker")
   public Info getByTicker(@RequestParam("ticker") String ticker);
 
-  @GetMapping("/product/stock/product/getInventory")
+  @GetMapping("/product/info/product/getInventory")
   public Integer getInventory(@RequestParam("productId") Integer productId);
 
-  @GetMapping("/product/stock/product/updateInventory")
+  @GetMapping("/product/info/product/updateInventory")
   public void updateInventory(@RequestParam("productId") Integer productId, @RequestParam("size") Integer size);
 }

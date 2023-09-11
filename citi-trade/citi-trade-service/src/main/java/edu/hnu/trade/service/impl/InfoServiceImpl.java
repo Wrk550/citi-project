@@ -51,13 +51,16 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
   RedissonClient redissonClient;
 
   @Override
-  public R sell(String clientId, String ticker, String ric, Integer size, String currency,
+  public R sell(Integer clientId, String ticker, String ric, Integer size, String currency,
       Integer htPt) {
     if (ric.equals("") && ticker.equals("")) {
       return R.error("请输入RIC或股票代码以确认将要进行操作的股票");
     }
     Info info = new Info();
-    info.setClientId(clientId);
+    if (clientServiceClient.getById(clientId).size() == 0) {
+      return R.error(clientServiceClient.getById(clientId).toString());
+    }
+    info.setClientId(String.valueOf(clientId));
     info.setClientSide("sell");
     info.setDate(LocalDateTime.now().toLocalDate());
     edu.hnu.product.module.po.Info productByRic = new edu.hnu.product.module.po.Info();
@@ -82,7 +85,7 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
         .equals(productByTicker.getTicker())) {
       return R.error("请输入同一只股票的RIC以及Ticker代码");
     }
-    if (clientServiceClient.getSize(Integer.parseInt(clientId), product.getId()) < size) {
+    if (clientServiceClient.getSize(clientId, product.getId()) < size) {
       return R.error("Id为" + clientId + "的客户持有的ticker为" + product.getTicker() + "的股票数量不足，出售失败");
     }
     info.setRic(product.getRic());
@@ -101,18 +104,21 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
       info.setHtPt("PT");
     }
     infoMapper.insert(info);
-    clientServiceClient.updateSize(Integer.parseInt(clientId), product.getId(), size);
+    clientServiceClient.updateSize(clientId, product.getId(), size, 0);
     return R.ok("卖出成功", info);
   }
 
   @Override
-  public R buy(String clientId, String ticker, String ric, Integer size, String currency,
+  public R buy(Integer clientId, String ticker, String ric, Integer size, String currency,
       Integer htPt) {
     if (ric.equals("") && ticker.equals("")) {
       return R.error("请输入RIC或股票代码以确认将要进行操作的股票");
     }
     Info info = new Info();
-    info.setClientId(clientId);
+    if (clientServiceClient.getById(clientId).size() == 0) {
+      return R.error("未找到对应用户");
+    }
+    info.setClientId(String.valueOf(clientId));
     info.setClientSide("buy");
     info.setDate(LocalDateTime.now().toLocalDate());
     edu.hnu.product.module.po.Info productByRic = new edu.hnu.product.module.po.Info();
@@ -137,8 +143,9 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
         .equals(productByTicker.getTicker())) {
       return R.error("请输入同一只股票的RIC以及Ticker代码");
     }
-    RLock lock = redissonClient.getLock("Id" + product.getId());
+
     //获取分布式锁
+    RLock lock = redissonClient.getLock("Id" + product.getId());
     try {
       if (lock.tryLock(1, TimeUnit.SECONDS)) {
         if (productServiceClient.getInventory(product.getId()) >= size) {
@@ -153,7 +160,6 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
         info.setNotionalUsd(new BigDecimal(size.toString()).multiply(product.getPrice()));
         info.setCurrency(currency);
         info.setIssueSector(product.getIssueSector());
-        //后续加入鉴权后修改
         info.setSalesperson("user");
 
         if (htPt == 0) {
@@ -162,12 +168,13 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
           info.setHtPt("PT");
         }
         infoMapper.insert(info);
+        clientServiceClient.updateSize(Integer.parseInt(String.valueOf(clientId)), product.getId(), size, 1);
         return R.ok("买入成功", info);
       } else {
         return R.error("请稍后重试");
       }
     } catch (Exception e) {
-      return R.error("发送异常");
+      return R.error("错误：" + e);
     } finally {
       //手动释放锁
       if (lock.isLocked() && lock.isHeldByCurrentThread()) {

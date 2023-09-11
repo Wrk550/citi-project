@@ -9,6 +9,7 @@ import edu.hnu.client.service.OwnService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import java.util.Arrays;
+import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -60,9 +61,17 @@ public class InfoController {
 
   @ApiOperation("展示客户信息")
   @ResponseBody
-  @PostMapping("client/list")
-  public R listClient(PageParams pageParams) {
+  @PostMapping("client/listInfo")
+  public R listClient (PageParams pageParams) {
     PageResult<Info> pageResult = infoService.queryInfoList(pageParams);
     return R.ok("查询成功", pageResult);
+  }
+
+  @ApiOperation("根据Id获取客户信息")
+  @ResponseBody
+  @PostMapping("client/list")
+  public List<Info> getById (@RequestParam("id") Integer id) {
+    System.out.println("id:" + id);
+    return infoService.getById(id);
   }
 }

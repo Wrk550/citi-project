@@ -1,8 +1,11 @@
 package edu.hnu.trade.feignclient;
 
+import edu.hnu.client.model.po.Info;
+import java.util.List;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
@@ -16,6 +19,8 @@ public interface ClientServiceClient {
 
   @GetMapping("client/own/client/updateSize")
   public void updateSize(@RequestParam("clientId") Integer clientId,
-      @RequestParam("productId") Integer productId, @RequestParam("size") Integer size);
+      @RequestParam("productId") Integer productId, @RequestParam("size") Integer size, @RequestParam("operator") Integer operator);
 
+  @PostMapping("client/info/client/list")
+  public List<Info> getById (@RequestParam("id") Integer id);
 }

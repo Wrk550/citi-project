@@ -84,4 +84,18 @@ public interface InfoService extends IService<Info> {
    */
   public PageResult<Info> queryInfoList(PageParams pageParams, QueryProductParamsDto queryProductParamsDto);
 
+  /**
+   * 根据股票id获取库存
+   *
+   * @param productId 股票id
+   * @return 股票库存
+   */
+  public Integer getInventory(Integer productId);
+
+  /**
+   * 售出股票，库存减少
+   * @param productId 股票id
+   * @param size 售出数量
+   */
+  public void decreaseInventory(Integer productId, Integer size);
 }

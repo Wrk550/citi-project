@@ -16,6 +16,8 @@ public class PageResult<T> implements Serializable{
   private long counts;
   //当前页码
   private long page;
+  //每页记录数
+  private long pageSize;
 
   public void setItems(List<T> items) {
     this.items = items;
@@ -48,9 +50,6 @@ public class PageResult<T> implements Serializable{
   public long getPageSize() {
     return pageSize;
   }
-
-  //每页记录数
-  private long pageSize;
 
   public PageResult(List<T> items, long counts, long page, long pageSize) {
     this.counts = counts;

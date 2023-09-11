@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import edu.hnu.base.module.PageParams;
 import edu.hnu.base.module.PageResult;
 import edu.hnu.base.module.R;
+import edu.hnu.client.feignclient.ProductServiceClient;
+import edu.hnu.client.mapper.InfoMapper;
 import edu.hnu.client.mapper.OwnMapper;
 import edu.hnu.client.model.dto.QueryOwnParamsDto;
 import edu.hnu.client.model.po.Own;
@@ -30,6 +32,12 @@ public class OwnServiceImpl extends ServiceImpl<OwnMapper, Own> implements OwnSe
 
   @Autowired
   OwnMapper ownMapper;
+
+  @Autowired
+  InfoMapper infoMapper;
+
+  @Autowired
+  ProductServiceClient productServiceClient;
 
   @Override
   public boolean getById(Integer clientId) {
@@ -56,13 +64,33 @@ public class OwnServiceImpl extends ServiceImpl<OwnMapper, Own> implements OwnSe
   }
 
   @Override
-  public void updateByProductIdAndClientId(Integer productId, Integer clientId, Integer size) {
+  public void updateByProductIdAndClientId(Integer productId, Integer clientId, Integer size, Integer operator) {
     LambdaQueryWrapper<Own> lambdaQueryWrapper = new LambdaQueryWrapper<>();
     lambdaQueryWrapper.eq(Own::getClientId, clientId);
     lambdaQueryWrapper.eq(Own::getProductId, productId);
-    Own own = ownMapper.selectOne(lambdaQueryWrapper);
-    own.setSize(own.getSize() - size);
-    ownMapper.updateById(own);
+    if (ownMapper.selectList(lambdaQueryWrapper).size() != 0) {
+      Own own = ownMapper.selectOne(lambdaQueryWrapper);
+      //出售
+      if (operator == 0) {
+        own.setSize(own.getSize() - size);
+      } else {
+        //买入
+        own.setSize(own.getSize() + size);
+      }
+      ownMapper.updateById(own);
+    } else {
+      Info info = productServiceClient.getById(productId);
+      edu.hnu.client.model.po.Info client = infoMapper.selectById(clientId);
+      Own own = new Own();
+      own.setClientId(clientId);
+      own.setCilentName(client.getClientName());
+      own.setProductId(productId);
+      own.setProductName(info.getName());
+      own.setTicker(info.getTicker());
+      own.setRic(info.getRic());
+      own.setSize(size);
+      ownMapper.insert(own);
+    }
   }
 
   @Override

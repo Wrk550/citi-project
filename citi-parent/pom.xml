@@ -16,7 +16,7 @@
     <module>../citi-client</module>
     <module>../citi-product</module>
     <module>../citi-trade</module>
-    <module>../xuecheng-plus-generator</module>
+    <module>../citi-generator</module>
   </modules>
 
   <properties>

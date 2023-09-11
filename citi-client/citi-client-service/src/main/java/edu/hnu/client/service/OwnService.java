@@ -39,7 +39,7 @@ public interface OwnService extends IService<Own> {
    * @param clientId 客户id
    * @param size 更新后的持有数量
    */
-  public void updateByProductIdAndClientId(Integer productId, Integer clientId, Integer size);
+  public void updateByProductIdAndClientId(Integer productId, Integer clientId, Integer size, Integer operator);
 
   /**
    * 客户持有股票分页查询

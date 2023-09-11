@@ -57,4 +57,12 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
     PageResult<Info> infoPageResult = new PageResult<>(items, total, pageParams.getPageNo(), pageParams.getPageSize());
     return infoPageResult;
   }
+
+  @Override
+  public List<Info> getById(Integer id) {
+    LambdaQueryWrapper<Info> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+    lambdaQueryWrapper.eq(Info::getId, id);
+    List<Info> res = infoMapper.selectList(lambdaQueryWrapper);
+    return res;
+  }
 }

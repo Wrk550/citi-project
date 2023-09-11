@@ -151,4 +151,19 @@ public class InfoServiceImpl extends ServiceImpl<InfoMapper, Info> implements In
     return infoPageResult;
   }
 
+  @Override
+  public Integer getInventory(Integer productId) {
+    Info info = infoMapper.selectById(productId);
+    return info.getStock();
+  }
+
+  @Override
+  public void decreaseInventory(Integer productId, Integer size) {
+
+    Info info = infoMapper.selectById(productId);
+    info.setStock(info.getStock() - size);
+    infoMapper.updateById(info);
+
+  }
+
 }
